@@ -1,6 +1,6 @@
 
 Nível 1 — Fundamentos
-[ ] 1. Hello World API — Criar uma rota GET que devolve uma mensagem.
+[ ] 1. Hello World API — Criar uma rota GET que devolve uma mensagem.🆗
 [ ] 2. API de apresentação — Devolver nome, idade e profissão.
 [ ] 3. Calculadora API — Somar, subtrair, multiplicar e dividir.
 [ ] 4. Conversor de temperatura — Converter Celsius, Fahrenheit e Kelvin.
