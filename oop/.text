@@ -1,0 +1,6 @@
+The FastAPI framework: pip install fastapi
+• The Uvicorn web server: pip install uvicorn
+• The HTTPie text web client: pip install httpie
+• The Requests synchronous web client package: pip install requests
+• The HTTPX synchronous/asynchronous web client package: pip install
+httpx
