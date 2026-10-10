@@ -1,0 +1,1 @@
+ Calculadora API — Somar, subtrair, multiplicar e dividir.
