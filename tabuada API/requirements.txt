@@ -1,0 +1,1 @@
+API de tabuada — Receber um número e devolver a tabuada.
