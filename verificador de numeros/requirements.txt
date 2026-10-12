@@ -1,0 +1,1 @@
+8. Verificador de números — Informar se um número é par, ímpar ou zero.

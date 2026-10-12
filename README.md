@@ -6,8 +6,8 @@ Nível 1 — Fundamentos
 [ ] 4. Conversor de temperatura — Converter Celsius, Fahrenheit e Kelvin.🆗
 [ ] 5. Conversor de moedas — Converter valores com taxas fixas de exemplo.🆗
 [ ] 6. API de saudação — Receber um nome como parâmetro e responder.🆗
-[ ] 7. API de tabuada — Receber um número e devolver a tabuada.
-[ ] 8. Verificador de números — Informar se um número é par, ímpar ou zero.
+[ ] 7. API de tabuada — Receber um número e devolver a tabuada.🆗
+[ ] 8. Verificador de números — Informar se um número é par, ímpar ou zero.🆗
 [ ] 9. Gerador de números aleatórios — Devolver números dentro de um intervalo.
 [ ] 10. API de data e hora — Devolver a data e hora atuais.
 
