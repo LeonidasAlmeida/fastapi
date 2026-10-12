@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 def datahora():
-    return {"Data "}
+    return {"Data ": datetime.now().date()}
 
 
 if __name__ == "__main__":
