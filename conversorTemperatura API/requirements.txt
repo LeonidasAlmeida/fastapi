@@ -1,0 +1,1 @@
+Conversor de temperatura — Converter Celsius, Fahrenheit e Kelvin.

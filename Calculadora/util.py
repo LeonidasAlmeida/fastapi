@@ -53,5 +53,6 @@ class Calculos(BaseModel):
         return self.resultado
 
 
+
 ##coisas novas raisen ValueError ("error ") usado para lançar uma execpcao 
 ##operador in {...} uo in [...] para iterar sobre um conjunto de dados para verificar uma condição
