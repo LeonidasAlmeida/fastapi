@@ -1,0 +1,1 @@
+Ordenação de resultados — Ordenar produtos por preço ou nome.
