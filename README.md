@@ -12,7 +12,7 @@ Nível 1 — Fundamentos
 [ ] 10. API de data e hora — Devolver a data e hora atuais.🆗
 
 Nível 2 — Rotas e validação
-[ ] 11. Gestor de tarefas em memória — Criar, listar e eliminar tarefas numa lista Python.
+[ ] 11. Gestor de tarefas em memória — Criar, listar e eliminar tarefas numa lista Python.👌
 [ ] 12. API de produtos — Devolver produtos fictícios em JSON.
 [ ] 13. API de utilizadores fictícios — Consultar utilizadores por ID.
 [ ] 14. Pesquisa de produtos — Filtrar produtos por nome.
