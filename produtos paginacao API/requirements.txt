@@ -1,0 +1,1 @@
+Paginação de resultados — Implementar limit e offset.
