@@ -1,0 +1,1 @@
+ 11. Gestor de tarefas em memória — Criar, listar e eliminar tarefas numa lista Python.
