@@ -17,11 +17,11 @@ Nível 2 — Rotas e validação
 [ ] 13. API de utilizadores fictícios — Consultar utilizadores por ID.👌
 [ ] 14. Pesquisa de produtos — Filtrar produtos por nome.👌
 [ ] 15. Paginação de resultados — Implementar limit e offset.👌
-[ ] 16. Ordenação de resultados — Ordenar produtos por preço ou nome.
-[ ] 17. Filtros por categoria — Filtrar produtos por categoria.
-[ ] 18. Validador de contactos — Validar nome, email e telefone.
-[ ] 19. Registo de livros — Criar livros com modelos Pydantic.
-[ ] 20. API de códigos HTTP — Demonstrar respostas 200, 201, 204 e 404.
+[ ] 16. Ordenação de resultados — Ordenar produtos por preço ou nome.👌
+[ ] 17. Filtros por categoria — Filtrar produtos por categoria.👌
+[ ] 18. Validador de contactos — Validar nome, email e telefone.👌
+[ ] 19. Registo de livros — Criar livros com modelos Pydantic.👌
+[ ] 20. API de códigos HTTP — Demonstrar respostas 200, 201, 204 e 404.👌
 
 Nível 3 — CRUD e modelos Pydantic
 [ ] 21. CRUD de tarefas — Criar, consultar, atualizar e eliminar tarefas.
