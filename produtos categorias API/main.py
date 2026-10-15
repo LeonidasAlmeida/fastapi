@@ -12,6 +12,5 @@ categoria:str = Body(embed=True) # O parametro Query é usado para definir possi
 ):
     return op.listar(categoria)
 
-
 if __name__ == "__main__":
     uvicorn.run("main:app", reload=True)

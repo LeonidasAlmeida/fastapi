@@ -24,7 +24,7 @@ Nível 2 — Rotas e validação
 [ ] 20. API de códigos HTTP — Demonstrar respostas 200, 201, 204 e 404.👌
 
 Nível 3 — CRUD e modelos Pydantic
-[ ] 21. CRUD de tarefas — Criar, consultar, atualizar e eliminar tarefas.
+[ ] 21. CRUD de tarefas — Criar, consultar, atualizar e eliminar tarefas.👌
 [ ] 22. CRUD de notas — Gerir notas com título e conteúdo.
 [ ] 23. CRUD de contactos — Guardar nome, telefone e email.
 [ ] 24. CRUD de estudantes — Gerir estudantes e cursos.
@@ -118,3 +118,4 @@ Nível 10 — Projetos de portfólio
 [ ] 98. API de suporte ao cliente — Tickets, comentários, prioridades e estados.
 [ ] 99. API de monitorização industrial — Registar paragens, temperaturas e humidade de equipamentos.
 [ ] 100. API de automação com IA — Receber texto, chamar um modelo de IA e devolver o resultado.
+
