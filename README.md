@@ -25,7 +25,7 @@ Nível 2 — Rotas e validação
 
 Nível 3 — CRUD e modelos Pydantic
 [ ] 21. CRUD de tarefas — Criar, consultar, atualizar e eliminar tarefas.👌
-[ ] 22. CRUD de notas — Gerir notas com título e conteúdo.
+[ ] 22. CRUD de notas — Gerir notas com título e conteúdo.👌
 [ ] 23. CRUD de contactos — Guardar nome, telefone e email.
 [ ] 24. CRUD de estudantes — Gerir estudantes e cursos.
 [ ] 25. CRUD de funcionários — Gerir dados profissionais.
