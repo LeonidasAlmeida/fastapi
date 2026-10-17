@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from models import Nota
-from schemas import NotasCreate, NotasResponse
+from schemas import NotasCreate
 
 
 def criar_nota(db: Session, dados: NotasCreate):

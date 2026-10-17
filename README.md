@@ -28,7 +28,7 @@ Nível 3 — CRUD e modelos Pydantic
 [ ] 22. CRUD de notas — Gerir notas com título e conteúdo.👌
 [ ] 23. CRUD de contactos — Guardar nome, telefone e email.👌
 [ ] 24. CRUD de estudantes — Gerir estudantes e cursos.👌
-[ ] 25. CRUD de funcionários — Gerir dados profissionais.
+[ ] 25. CRUD de funcionários — Gerir dados profissionais.👌
 [ ] 26. CRUD de categorias — Criar e atualizar categorias.
 [ ] 27. CRUD de marcas — Associar marcas a produtos.
 [ ] 28. API de comentários — Adicionar e consultar comentários.
