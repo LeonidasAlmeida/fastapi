@@ -58,6 +58,38 @@ def eliminar_estudante(id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Student is not found")
     return crud.eliminar_estudante(estudante,db)
 # -------------------------------------------------------------------
+#criar cursos
+@app.post("/curso/")
+def criar_curso(dados:CursosCreate,db:Session = Depends(get_db)):
+    return crud.criar_curso(db,dados)
+#listar cursos
+@app.get("/curso/", response_model=list[CursosResponse])
+def listar_curso(db:Session = Depends(get_db)):
+    return crud.listar_curso(db)
+#obter curso
+@app.get("/curso/pegar/", response_model= CursosResponse)
+def obter_curso(id:int, db:Session = Depends(get_db)):
+    curso = crud.obter_curso(id,db)
+    if curso is None:
+        raise HTTPException(status_code=404, detail="Curse was not found !")
+    return curso
+
+@app.put("/curso/")
+def atualizar_curso(id:int,dados:CursosCreate,db:Session = Depends(get_db)):
+    curso = crud.obter_curso(id,db)
+    if curso is None:
+        raise HTTPException(status_code=404, detail="Curse was not found !")
+    crud.atualizar_curso(dados,curso,db)
+    return {"Message": "Update with Success !"}
+#deletar curso
+@app.delete("/curso/delete/")
+def deletar_curso(id:int, db:Session = Depends(get_db)):
+    curso = crud.obter_curso(id,db)
+    if curso is None:
+        raise HTTPException(status_code=404, detail="Curse was not found !")
+    crud.deletar_curso(curso,db)
+    return {"Message": "delete with Success !"}
+
 if __name__ == "__main__":
     import uvicorn
 

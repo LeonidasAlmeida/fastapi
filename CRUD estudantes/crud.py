@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
-from models import Estudante
-from schemas import EstudanteCreate, EstudanteResponse
+from models import Estudante,Curso
+from schemas import EstudanteCreate,CursosCreate
 
 # criar estudante
 def criar_estudante(db: Session, dados: EstudanteCreate):
@@ -33,3 +33,32 @@ def eliminar_estudante(estudante:Estudante , db: Session ):
     db.delete(estudante)
     db.commit()
     return {"Message": "deleted with Success !"}
+
+
+
+#--------------------------------------------------
+# criar curso
+def criar_curso(db: Session, dados:CursosCreate):
+    curso = Curso(**dados.model_dump())
+    db.add(curso)
+    db.commit()
+    db.refresh(curso)
+    return {"Message": "Create with Success !"}
+
+# listar estudante
+def listar_curso(db:Session):
+    return db.query(Curso).all()
+# pegar estudante
+def obter_curso(id:int,db:Session):
+    return db.get(Curso,id)
+# atualizar estudante
+def atualizar_curso(dados:CursosCreate,curso:Curso,db:Session):
+    curso.nome_curso = dados.nome_curso
+    curso.departamento = dados.departamento
+    db.commit()
+    db.refresh(curso)
+    
+#eliminar estudante
+def deletar_curso(curso:Curso,db:Session):
+    db.delete(curso)
+    db.commit()
