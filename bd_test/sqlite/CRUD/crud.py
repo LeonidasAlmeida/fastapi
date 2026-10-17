@@ -27,7 +27,6 @@ def atualizar_produto(db: Session, produto: Produto, dados: ProdutoCreate):
     produto.quantidade = dados.quantidade
     db.commit()
     db.refresh(produto)
-
     return produto
 
 

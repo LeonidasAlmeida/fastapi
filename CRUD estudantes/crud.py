@@ -2,7 +2,6 @@ from sqlalchemy.orm import Session
 from models import Estudante
 from schemas import EstudanteCreate, EstudanteResponse
 
-
 # criar estudante
 def criar_estudante(db: Session, dados: EstudanteCreate):
     estudante = Estudante(**dados.model_dump())
@@ -12,17 +11,14 @@ def criar_estudante(db: Session, dados: EstudanteCreate):
 
     return {"Message": "Create with Success !"}
 
-
 # listar estudante
 def listar_estudante(db: Session):
     estudante = db.query(Estudante).all()
     return estudante
 
-
 # pegar estudante
 def obter_estudante(id: int, db: Session):
     return db.get(Estudante, id)
-
 
 # atualizar estudante
 def atualizar_estudante(dados: EstudanteCreate, estudante:Estudante, db: Session):
@@ -32,4 +28,8 @@ def atualizar_estudante(dados: EstudanteCreate, estudante:Estudante, db: Session
     db.refresh(estudante)
     return {"Message": "Update with Success !"}
 
-
+#eliminar estudante
+def eliminar_estudante(estudante:Estudante , db: Session ):
+    db.delete(estudante)
+    db.commit()
+    return {"Message": "deleted with Success !"}

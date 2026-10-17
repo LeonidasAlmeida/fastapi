@@ -64,7 +64,7 @@ def eliminar_produto(produto_id: int, db: Session = Depends(get_db)):
     produto = crud.obter_produto(db, produto_id)
 
     if produto is None:
-        raise HTTPException(status_code=404, detail="Produto não encontrado")
+        raise HTTPException(status_code = 404, detail="Produto não encontrado")
 
     crud.eliminar_produto(db, produto)
 
