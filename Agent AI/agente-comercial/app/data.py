@@ -1,0 +1,67 @@
+
+vendas = [
+  
+   # Setembro de 2026
+    {"produto": "Leite Integral", "quantidade": 100, "preco_unitario": 1200, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Leite Integral", "quantidade": 80, "preco_unitario": 1200, "provincia": "Benguela", "mes": "2026-09"},
+    {"produto": "Iogurte", "quantidade": 150, "preco_unitario": 800, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Manteiga", "quantidade": 50, "preco_unitario": 2000, "provincia": "Huambo", "mes": "2026-09"},
+    {"produto": "Leite em Pó", "quantidade": 70, "preco_unitario": 3500, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Queijo", "quantidade": 40, "preco_unitario": 4200, "provincia": "Benguela", "mes": "2026-09"},
+    {"produto": "Nata", "quantidade": 90, "preco_unitario": 1800, "provincia": "Huíla", "mes": "2026-09"},
+    {"produto": "Iogurte", "quantidade": 130, "preco_unitario": 800, "provincia": "Huambo", "mes": "2026-09"},
+    {"produto": "Leite Integral", "quantidade": 110, "preco_unitario": 1200, "provincia": "Malanje", "mes": "2026-09"},
+    {"produto": "Manteiga", "quantidade": 65, "preco_unitario": 2000, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Queijo", "quantidade": 55, "preco_unitario": 4200, "provincia": "Huambo", "mes": "2026-09"},
+    {"produto": "Leite em Pó", "quantidade": 85, "preco_unitario": 3500, "provincia": "Benguela", "mes": "2026-09"},
+    {"produto": "Nata", "quantidade": 75, "preco_unitario": 1800, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Iogurte", "quantidade": 170, "preco_unitario": 800, "provincia": "Malanje", "mes": "2026-09"},
+    {"produto": "Leite Integral", "quantidade": 95, "preco_unitario": 1200, "provincia": "Huambo", "mes": "2026-09"},
+    {"produto": "Manteiga", "quantidade": 45, "preco_unitario": 2000, "provincia": "Benguela", "mes": "2026-09"},
+    {"produto": "Queijo", "quantidade": 60, "preco_unitario": 4200, "provincia": "Luanda", "mes": "2026-09"},
+    {"produto": "Leite em Pó", "quantidade": 90, "preco_unitario": 3500, "provincia": "Huíla", "mes": "2026-09"},
+
+    # Outubro de 2026
+    {"produto": "Leite Integral", "quantidade": 120, "preco_unitario": 1250, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Iogurte", "quantidade": 200, "preco_unitario": 800, "provincia": "Benguela", "mes": "2026-10"},
+    {"produto": "Manteiga", "quantidade": 60, "preco_unitario": 2100, "provincia": "Huambo", "mes": "2026-10"},
+    {"produto": "Leite em Pó", "quantidade": 95, "preco_unitario": 3600, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Queijo", "quantidade": 70, "preco_unitario": 4300, "provincia": "Benguela", "mes": "2026-10"},
+    {"produto": "Nata", "quantidade": 100, "preco_unitario": 1850, "provincia": "Huíla", "mes": "2026-10"},
+    {"produto": "Iogurte", "quantidade": 220, "preco_unitario": 800, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Leite Integral", "quantidade": 140, "preco_unitario": 1250, "provincia": "Malanje", "mes": "2026-10"},
+    {"produto": "Manteiga", "quantidade": 75, "preco_unitario": 2100, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Queijo", "quantidade": 65, "preco_unitario": 4300, "provincia": "Huambo", "mes": "2026-10"},
+    {"produto": "Leite em Pó", "quantidade": 110, "preco_unitario": 3600, "provincia": "Benguela", "mes": "2026-10"},
+    {"produto": "Nata", "quantidade": 85, "preco_unitario": 1850, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Iogurte", "quantidade": 190, "preco_unitario": 800, "provincia": "Huambo", "mes": "2026-10"},
+    {"produto": "Leite Integral", "quantidade": 130, "preco_unitario": 1250, "provincia": "Huíla", "mes": "2026-10"},
+    {"produto": "Manteiga", "quantidade": 80, "preco_unitario": 2100, "provincia": "Benguela", "mes": "2026-10"},
+    {"produto": "Queijo", "quantidade": 90, "preco_unitario": 4300, "provincia": "Luanda", "mes": "2026-10"},
+    {"produto": "Leite em Pó", "quantidade": 100, "preco_unitario": 3600, "provincia": "Malanje", "mes": "2026-10"},
+    # Novembro de 2025
+    {"produto": "Leite Integral", "quantidade": 90, "preco_unitario": 1150, "provincia": "Luanda", "mes": "2025-11"},
+    {"produto": "Leite Integral", "quantidade": 75, "preco_unitario": 1150, "provincia": "Benguela", "mes": "2025-11"},
+    {"produto": "Iogurte", "quantidade": 140, "preco_unitario": 750, "provincia": "Luanda", "mes": "2025-11"},
+    {"produto": "Manteiga", "quantidade": 45, "preco_unitario": 1900, "provincia": "Huambo", "mes": "2025-11"},
+    {"produto": "Leite em Pó", "quantidade": 65, "preco_unitario": 3400, "provincia": "Luanda", "mes": "2025-11"},
+    {"produto": "Queijo", "quantidade": 35, "preco_unitario": 4000, "provincia": "Benguela", "mes": "2025-11"},
+    {"produto": "Nata", "quantidade": 80, "preco_unitario": 1700, "provincia": "Huíla", "mes": "2025-11"},
+    {"produto": "Iogurte", "quantidade": 160, "preco_unitario": 750, "provincia": "Huambo", "mes": "2025-11"},
+    {"produto": "Leite Integral", "quantidade": 105, "preco_unitario": 1150, "provincia": "Malanje", "mes": "2025-11"},
+    {"produto": "Manteiga", "quantidade": 55, "preco_unitario": 1900, "provincia": "Luanda", "mes": "2025-11"},
+
+    # Dezembro de 2025
+    {"produto": "Leite Integral", "quantidade": 130, "preco_unitario": 1150, "provincia": "Luanda", "mes": "2025-12"},
+    {"produto": "Iogurte", "quantidade": 210, "preco_unitario": 750, "provincia": "Benguela", "mes": "2025-12"},
+    {"produto": "Manteiga", "quantidade": 70, "preco_unitario": 1950, "provincia": "Huambo", "mes": "2025-12"},
+    {"produto": "Leite em Pó", "quantidade": 100, "preco_unitario": 3400, "provincia": "Luanda", "mes": "2025-12"},
+    {"produto": "Queijo", "quantidade": 60, "preco_unitario": 4000, "provincia": "Benguela", "mes": "2025-12"},
+    {"produto": "Nata", "quantidade": 95, "preco_unitario": 1700, "provincia": "Huíla", "mes": "2025-12"},
+    {"produto": "Iogurte", "quantidade": 230, "preco_unitario": 750, "provincia": "Luanda", "mes": "2025-12"},
+    {"produto": "Leite Integral", "quantidade": 145, "preco_unitario": 1150, "provincia": "Malanje", "mes": "2025-12"},
+    {"produto": "Manteiga", "quantidade": 85, "preco_unitario": 1950, "provincia": "Luanda", "mes": "2025-12"},
+    {"produto": "Queijo", "quantidade": 75, "preco_unitario": 4000, "provincia": "Huambo", "mes": "2025-12"},
+
+
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "produto",
+    "texto": "Produto é o artigo comercializado pela empresa. Para encontrar o produto menos vendido, somar a quantidade vendida por produto e ordenar de forma crescente."
+  },
+  {
+    "id": "quantidade",
+    "texto": "Quantidade representa o número de unidades vendidas. Mais vendido significa maior soma de quantidades."
+  },
+  {
+    "id": "faturacao",
+    "texto": "Faturação corresponde à quantidade multiplicada pelo preço unitário. Faturação não é lucro."
+  },
+  {
+    "id": "periodo",
+    "texto": "O campo mes pode usar o formato YYYY-MM, por exemplo 2026-09. Para comparar períodos, filtrar os meses pretendidos."
+  }
+]
