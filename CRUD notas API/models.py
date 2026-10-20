@@ -3,7 +3,6 @@ from database import Base
 
 class Nota(Base):
     __tablename__ = "notas"
-    DF
     id = Column(Integer,primary_key=True, index=True)
     title = Column(String(100),nullable=False)
     comentario = Column(String(200),nullable=False)

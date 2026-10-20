@@ -27,7 +27,6 @@ def atualizar_nota(db: Session, nota: Nota, dados: NotasCreate):
     nota.comentario = dados.comentario
     db.commit()
     db.refresh(nota)
-
     return nota
 
 def deletar_nota(db,nota:Nota):
